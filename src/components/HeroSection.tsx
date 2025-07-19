@@ -30,7 +30,7 @@ const HeroSection = () => {
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-tight">
                 Hi, I'm{" "}
                 <span className="bg-gradient-text bg-clip-text text-transparent animate-pulse-glow">
-                  Alex Johnson
+                  Nada Jlassi
                 </span>
               </h1>
               
