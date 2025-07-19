@@ -22,33 +22,32 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-sm">
               <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm text-muted-foreground">Introducing the future</span>
+              <span className="text-sm text-muted-foreground">Developer & Creator</span>
             </div>
 
             <div className="space-y-4 animate-fade-in-up">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-                Build the{" "}
+                Hi, I'm{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  Future
-                </span>{" "}
-                Today
+                  Alex Johnson
+                </span>
               </h1>
               
               <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
-                Transform your ideas into reality with our cutting-edge platform. 
-                Designed for creators, built for scale.
+                Full-stack developer passionate about creating innovative solutions 
+                and bringing ideas to life through code.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                Get Started
+                View My Projects
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               
               <Button variant="glass" size="lg" className="text-lg px-8 py-6">
                 <Zap className="mr-2 w-5 h-5" />
-                Learn More
+                Get In Touch
               </Button>
             </div>
 
